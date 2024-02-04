@@ -1,0 +1,6 @@
+When simulating a layout, all traces are considered.
+If simulating from schematic, any net that has the same connections in both the layout and schematic will be considered.
+In order to be simulated as transmission lines, a trace must have a line type.
+If there is no information in this log about a particular schematic design, it means there was no equivalent layout.
+If there is no information in this log about a particular schematic net, it means there was no eqiuvalent net in the layout.
+
